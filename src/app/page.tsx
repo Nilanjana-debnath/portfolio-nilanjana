@@ -45,15 +45,16 @@ export default async function Home() {
           <p className="mt-2 font-light">
             Currently pursuing my <strong>M.S. (Research)</strong> at{" "}
             <strong>IIT Palakkad</strong>, I’m passionate about solving complex
-            problems using cutting-edge technologies. When I’m not coding, I
-            enjoy exploring new datasets and sipping on a cup of chai. 🍵
+            problems using cutting-edge technologies. 
+            {/* When I’m not coding, I */}
+            {/* enjoy exploring new datasets and sipping on a cup of chai. 🍵 */}
           </p>
 
           {/* Chatbot Prompt */}
-          <div className="mt-4 flex items-end gap-1">
+          {/* <div className="mt-4 flex items-end gap-1">
             <p className="font-semibold">Ask the chatbot anything about me</p>
             <ArrowDownRight className="size-5 animate-bounce" />
-          </div>
+          </div> */}
 
           {/* Call-to-Action Buttons */}
           <section className="mt-8 flex items-center gap-8">
