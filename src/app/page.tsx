@@ -37,7 +37,8 @@ export default async function Home() {
         <div className="flex flex-col">
           <h1 className="title text-5xl">Hi, I'm Nilanjana 👋</h1>
           <p className="mt-4 font-light">
-            {new Date().getFullYear() - BIRTH_YEAR}-year-old researcher and
+            {/* {new Date().getFullYear() - BIRTH_YEAR}-year-old */}
+            A researcher and
             developer specializing in <strong>Machine Learning</strong>,{" "}
             <strong>Graph Neural Networks</strong>, and{" "}
             <strong>Natural Language Processing</strong>.
