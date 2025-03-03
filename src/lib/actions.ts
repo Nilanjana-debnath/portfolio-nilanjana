@@ -67,10 +67,18 @@ export async function sendEmail(data: ContactFormInputs) {
   try {
 
     const { name, email, message } = result.data;
+<<<<<<< HEAD
     const mailOptions = {
       from: `Nilanjana Debnath <${process.env.GMAIL_USER}>`,
       to: process.env.GMAIL_USER,
       replyTo: email,
+=======
+    const { data, error } = await resend.emails.send({
+      from: `tedwf.com`,
+      to: "nilanjana.debnath24@gmail.com",
+      replyTo: [email],
+      cc: [email],
+>>>>>>> 643a80256192e49da15c7bd8d236008488d14521
       subject: `New message from ${name}!`,
       text: `Name:\n${name}\n\nEmail:\n${email}\n\nMessage:\n${message}`,
     };
