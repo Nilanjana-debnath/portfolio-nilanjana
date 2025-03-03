@@ -23,7 +23,7 @@
     {
       "name": "Human Activity Recognition on UCF-50 Dataset",
       "description": "Developed a human activity recognition system for video data using Convolutional Neural Networks (CNNs) and Long Short-Term Memory (LSTM) networks.",
-      "image": "/activity-recognition.jfif",  
+      "image": "/activity-recognition.jpg",  
       "tags": [
         "PyTorch",
         "CNN",
@@ -60,7 +60,7 @@
     {
       "name": "Deepseek PDF Chat: AI-Powered PDF Query System Using LangChain and Ollama",
       "description": "Built a PDF-based question-answering system using LangChain, leveraging text chunking, embedding generation, and vector storage for efficient semantic search and retrieval-augmented generation (RAG). Integrated a Streamlit-based UI with the Deepseek language model (deepseek-r1:1.5b) via langchain-ollama, enabling real-time, context-aware query responses.",
-      "image": "/deepseek-chat.jfif",
+      "image": "/deepseek-chat.jpg",
       "tags": [
         "Python",
         "LangChain",
