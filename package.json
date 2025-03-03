@@ -22,6 +22,7 @@
     "dotenv": "^16.4.5",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.441.0",
+    "nodemailer": "^6.10.0",
     "next": "^15.2.0",
     "next-mdx-remote": "^5.0.0",
     "next-themes": "^0.3.0",
