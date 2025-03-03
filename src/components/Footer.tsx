@@ -9,7 +9,7 @@ export default function Footer() {
         <p className="text-center text-xs text-muted-foreground">
           <span>&copy; {new Date().getFullYear()}</span>{" "}
           <Link className="link" href="/">
-            Nilanjana.com
+            Nilanjana.vercel.com
           </Link>
           {" | "}
           <Link className="link font-bold" href="/privacy">
